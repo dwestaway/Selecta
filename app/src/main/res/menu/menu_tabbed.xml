@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.foodfriend.selecta.TabbedActivity">
+    <item
+        android:id="@+id/changeImage"
+        android:orderInCategory="3"
+        android:title="Change Profile Image"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="4"
+        android:id="@+id/sign_out"
+        android:title="Sign Out" />
+    <item
+        android:orderInCategory="2"
+        android:id="@+id/changePassword"
+        android:title="Change Password" />
+    <item
+        android:orderInCategory="1"
+        android:id="@+id/help"
+        android:title="Help" />
+</menu>

@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/tab1profile"
+    tools:context="com.foodfriend.selecta.TabbedActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gradientbackground">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/profileimage" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileImage"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:hint="Loading..."
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+
+    </RelativeLayout>
+
+    <AutoCompleteTextView
+        android:id="@+id/foodChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="8"
+        android:hint="Favourite sub-genres/about me"
+        android:inputType="textCapSentences"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textStyle="normal" />
+
+    <View
+        android:id="@+id/fakeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:spinnerMode="dialog"
+        android:background="@drawable/buttonrounded"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="10sp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/foodChoice"
+        android:layout_alignLeft="@id/fakeView"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp" />
+
+    <Spinner
+        android:id="@+id/spinnerGender"
+        android:spinnerMode="dialog"
+        android:background="@drawable/buttonrounded"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="10sp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/foodChoice"
+        android:layout_alignRight="@id/fakeView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp" />
+
+    <!--
+    <Button
+        android:id="@+id/dateButton"
+        android:layout_width="fill_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="5sp"
+        android:layout_below="@+id/foodChoice"
+        android:layout_alignRight="@id/fakeView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttonrounded"
+        android:text="Chose Your Gender"
+        android:textSize="14dp"
+        android:typeface="normal"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+     -->
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="14dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonrounded"
+        android:text="Search"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

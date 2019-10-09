@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="Help / Guide"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/guide1"
+        android:text="Fill out the profile screen to make your desired food location and time visible to other users. Press 'Find a Food Friend' to confirm. Only users in your area will be displayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/guide2"
+        android:text="Click users on the 'Food Friends' screen to start a live chat with the user."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/guide3"
+        android:text="Users can be reported with the 'Report User' button located on the top right of the chat screen."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Okay"
+        android:background="@drawable/buttonrounded"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.foodfriend.selecta.TabbedActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your potential food friend's: (Click to start chat)"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_margin="8dp"
+        android:id="@+id/topText"/>
+
+    <ListView
+        android:id="@+id/listMatches"
+        android:layout_below="@id/topText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

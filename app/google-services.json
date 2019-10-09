@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1034398761448",
+    "firebase_url": "https://dnb-dating-app.firebaseio.com",
+    "project_id": "dnb-dating-app",
+    "storage_bucket": "dnb-dating-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034398761448:android:55dd66158cfcea1b",
+        "android_client_info": {
+          "package_name": "com.foodfriend.selecta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034398761448-060imenkupsgm5uef1ea2crosrgboe92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtKP0KdT7sWkSOsaiHhMg9oC8ShcEzkpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034398761448-060imenkupsgm5uef1ea2crosrgboe92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
